@@ -1,0 +1,29 @@
+//
+//  NameImageViewCell.m
+//  PoolSpec1.2
+//
+//  Created by Sean Johnson on 3/27/13.
+//  Copyright (c) 2013 Sean Johnson. All rights reserved.
+//
+
+#import "NameImageViewCell.h"
+
+@implementation NameImageViewCell
+
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+{
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if (self) {
+        // Initialization code
+    }
+    return self;
+}
+
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated
+{
+    [super setSelected:selected animated:animated];
+
+    // Configure the view for the selected state
+}
+
+@end
